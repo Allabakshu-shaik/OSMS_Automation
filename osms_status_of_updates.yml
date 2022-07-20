@@ -1,0 +1,7 @@
+---
+- name: OSMS Apply Updates
+  hosts:  "*"
+  gather_facts: false
+  roles:
+    - {role: 'oci_collection_authenticate'}
+    - {role: 'oci_collection_osms_status_of_updates'}

@@ -1,0 +1,8 @@
+# Operational directories and files
+/inventory/
+/.devcontainer/
+/facts/
+/files/
+/.oci/
+/keys/
+/ssh.cfg
