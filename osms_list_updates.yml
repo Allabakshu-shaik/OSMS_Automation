@@ -1,7 +1,0 @@
----
-- name: OSMS List Updates
-  hosts:  "*"
-  gather_facts: false
-  roles:
-    - {role: 'oci_collection_authenticate'}
-    - {role: 'oci_collection_osms_list_updates'}
